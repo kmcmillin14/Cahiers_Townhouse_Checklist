@@ -75,7 +75,7 @@ async function handleOpeningSubmit(event) {
         timestamp: formData.get('timestamp'),
         checklist: checkedItems,
         completedTasks: checkedItems.length,
-        totalTasks: 11,
+        totalTasks: 10,
         comments: formData.get('comments'),
         guests: guests,
         guestCount: guests.length
@@ -98,7 +98,7 @@ async function handleClosingSubmit(event) {
         timestamp: formData.get('timestamp'),
         checklist: checkedItems,
         completedTasks: checkedItems.length,
-        totalTasks: 19,
+        totalTasks: 17,
         comments: formData.get('comments'),
         guests: guests,
         guestCount: guests.length
